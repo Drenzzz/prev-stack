@@ -1,3 +1,4 @@
+import "../app/globals.css";
 import "./Layout.css";
 
 import logoUrl from "../assets/logo.svg";
