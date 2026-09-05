@@ -8,6 +8,20 @@
       "when": 1788613796992,
       "tag": "0000_military_malice",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1788615149801,
+      "tag": "0001_broken_colleen_wing",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1788615450083,
+      "tag": "0002_curious_amazoness",
+      "breakpoints": true
     }
   ]
 }
