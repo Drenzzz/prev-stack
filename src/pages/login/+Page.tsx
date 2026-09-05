@@ -2,6 +2,7 @@ import { useState } from "react";
 import { AuthLayout } from "../../components/auth-layout";
 import { LoginForm } from "../../components/login-form";
 import { signIn } from "../../lib/auth-client";
+import { formString } from "../../lib/form";
 
 export default function Page() {
   const [error, setError] = useState("");
@@ -13,8 +14,8 @@ export default function Page() {
     setPending(true);
     const form = new FormData(ev.currentTarget);
     const { error } = await signIn.email({
-      email: String(form.get("email") ?? ""),
-      password: String(form.get("password") ?? ""),
+      email: formString(form, "email"),
+      password: formString(form, "password"),
     });
     if (error) {
       setError(error.message ?? "Failed to log in. Check your credentials.");

@@ -8,4 +8,10 @@ export const auth = betterAuth({
   emailAndPassword: {
     enabled: true,
   },
+  // Extra origins allowed to call the auth API (e.g. dev on another port).
+  // Comma-separated via TRUSTED_ORIGINS.
+  trustedOrigins: (process.env.TRUSTED_ORIGINS ?? "")
+    .split(",")
+    .map((origin) => origin.trim())
+    .filter(Boolean),
 });

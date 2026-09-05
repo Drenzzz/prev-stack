@@ -2,6 +2,7 @@ import { useState } from "react";
 import { AuthLayout } from "../../components/auth-layout";
 import { SignupForm } from "../../components/signup-form";
 import { signUp } from "../../lib/auth-client";
+import { formString } from "../../lib/form";
 
 export default function Page() {
   const [error, setError] = useState("");
@@ -11,10 +12,10 @@ export default function Page() {
     ev.preventDefault();
     setError("");
     const form = new FormData(ev.currentTarget);
-    const name = String(form.get("name") ?? "");
-    const email = String(form.get("email") ?? "");
-    const password = String(form.get("password") ?? "");
-    if (password !== String(form.get("confirmPassword") ?? "")) {
+    const name = formString(form, "name");
+    const email = formString(form, "email");
+    const password = formString(form, "password");
+    if (password !== formString(form, "confirmPassword")) {
       setError("Passwords do not match.");
       return;
     }
