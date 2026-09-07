@@ -1,5 +1,6 @@
 import { auth } from "./auth";
 import { dbMiddleware } from "./db-middleware";
+import { productRoutes } from "./products";
 import vike from "@vikejs/elysia";
 import { Elysia } from "elysia";
 
@@ -14,6 +15,8 @@ function getApp() {
       return auth.handler(request);
     }
   });
+
+  productRoutes(app);
 
   vike(app, [
     // Make database available in Context as `context.db`
