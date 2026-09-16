@@ -1,8 +1,11 @@
 {
   "name": "my-app",
+  "packageManager": "bun@1.4.0",
   "scripts": {
     "dev": "vike dev",
     "build": "vike build",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
     "preview": "vike build && vike preview",
     "drizzle:generate": "drizzle-kit generate",
     "drizzle:migrate": "drizzle-kit migrate",
@@ -46,6 +49,7 @@
     "@babel/core": "^8.0.1",
     "@rolldown/plugin-babel": "^0.2.3",
     "@types/babel__core": "^7.20.5",
+    "@types/bun": "^1.4.2",
     "@types/node": "^26.4.1",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.7",
