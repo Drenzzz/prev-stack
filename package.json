@@ -25,7 +25,7 @@
     "@tailwindcss/vite": "^4.3.3",
     "@tanstack/react-table": "^9.3.1",
     "@universal-middleware/core": "^0.6.2",
-    "@vikejs/elysia": "^0.2.1",
+    "@vikejs/elysia": "^0.4.1",
     "better-auth": "^1.7.7",
     "class-variance-authority": "^0.7.1",
     "cn": "^0.4.0",
