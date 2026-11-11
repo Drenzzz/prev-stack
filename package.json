@@ -22,7 +22,7 @@
     "@dnd-kit/utilities": "^3.2.2",
     "@fontsource-variable/geist": "^5.3.0",
     "@tabler/icons-react": "^3.51.0",
-    "@tailwindcss/vite": "^4.3.3",
+    "@tailwindcss/vite": "^4.3.5",
     "@tanstack/react-table": "^9.3.1",
     "@universal-middleware/core": "^0.7.2",
     "@vikejs/elysia": "^0.4.1",
