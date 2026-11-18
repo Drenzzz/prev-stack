@@ -48,7 +48,7 @@
         "oxlint": "^1.93.0",
         "oxlint-tsgolint": "^7.0.2005",
         "typescript": "^7.0.2",
-        "vite": "^8.3.6",
+        "vite": "^8.3.8",
       },
     },
   },
@@ -1029,7 +1029,7 @@
 
     "vike-react": ["vike-react@0.6.32", "", { "dependencies": { "react-streaming": "^0.4.19" }, "peerDependencies": { "react": ">=19", "react-dom": ">=19", "vike": ">=0.4.250" } }, "sha512-UMiubZXhdW2lzltzdaQNWioLIOKF5DMHDF5e+iccow05RSToy6Xaj32MsmFZygUZDR80NzSQdf+Yp85GfWjppw=="],
 
-    "vite": ["vite@8.3.6", "", { "dependencies": { "lightningcss": "^1.33.0", "picomatch": "^4.0.7", "postcss": "^8.5.32", "rolldown": "~1.2.16", "tinyglobby": "^0.2.17" }, "optionalDependencies": { "fsevents": "~2.3.3" }, "peerDependencies": { "@types/node": "^20.19.0 || >=22.12.0", "@vitejs/devtools": "^0.7.1 || ^0.8.0", "esbuild": "^0.27.0 || ^0.28.0", "jiti": ">=1.21.0", "less": "^4.0.0", "sass": "^1.70.0", "sass-embedded": "^1.70.0", "stylus": ">=0.54.8", "sugarss": "^5.0.0", "terser": "^5.16.0", "tsx": "^4.8.1", "yaml": "^2.4.2" }, "optionalPeers": ["@types/node", "@vitejs/devtools", "esbuild", "jiti", "less", "sass", "sass-embedded", "stylus", "sugarss", "terser", "tsx", "yaml"], "bin": { "vite": "bin/vite.js" } }, "sha512-UI7dK29NnS54Fk+mmo7o+jI6U8Fp7hDl+X5Q1k45WH+d4dSlbLVUETGQ+hfkNgvLQGyoElPj837nZyv4MBc0VA=="],
+    "vite": ["vite@8.3.8", "", { "dependencies": { "lightningcss": "^1.33.0", "picomatch": "^4.0.7", "postcss": "^8.5.32", "rolldown": "~1.2.18", "tinyglobby": "^0.2.17" }, "optionalDependencies": { "fsevents": "~2.3.3" }, "peerDependencies": { "@types/node": "^20.19.0 || >=22.12.0", "@vitejs/devtools": "^0.7.1 || ^0.8.0", "esbuild": "^0.27.0 || ^0.28.0", "jiti": ">=1.21.0", "less": "^4.0.0", "sass": "^1.70.0", "sass-embedded": "^1.70.0", "stylus": ">=0.54.8", "sugarss": "^5.0.0", "terser": "^5.16.0", "tsx": "^4.8.1", "yaml": "^2.4.2" }, "optionalPeers": ["@types/node", "@vitejs/devtools", "esbuild", "jiti", "less", "sass", "sass-embedded", "stylus", "sugarss", "terser", "tsx", "yaml"], "bin": { "vite": "bin/vite.js" } }, "sha512-LzOn3h9rG/0vhLdXrV4yJ4QFA9eEoqCl+Yx+kGJd7aB9w6nfNgVHKSYwLPZUHrz4ZGa+t+kXjV9itvcHDLQouA=="],
 
     "vite-plugin-wrapper": ["vite-plugin-wrapper@0.1.1", "", { "peerDependencies": { "vite": ">=7" } }, "sha512-hbY5eLvv9YZ+SWLJ6wQRunzDCSiN59WuzBgYlhbiQSD2seDiUfmfuaSGBS07oPpA5+RAX2oDV2BGyusfKNcZcQ=="],
 
